@@ -38,7 +38,7 @@ def searchUrl(url):
         t, u = d
 
         temp = t.strip().replace(r' +', '')
-        res = re.search(r'(\d+)|(\d+月)|(\d+日)', temp)
+        res = re.search(r'(\d+)|(\d+月)|(\d+日)|(pub)', temp)
 
         print(t, url)
 
